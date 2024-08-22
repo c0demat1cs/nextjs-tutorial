@@ -16,9 +16,9 @@ const config: Config = {
     },
   },
   plugins: [
-    require('daisyui')
+    require('daisyui') // add the plugin
   ],
-  daisyui: {
+  daisyui: {  // add the config
     themes: ["winter"],
   }
 };

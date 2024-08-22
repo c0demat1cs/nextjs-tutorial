@@ -16,6 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="winter">
+      {" "}
+      {/* add the data-theme attribute */}
       <body className={inter.className}>{children}</body>
     </html>
   );
